@@ -1,0 +1,34 @@
+/* Admin styles for ezMegaMenu */
+.ezmm-upload {
+    margin-top: 5px;
+}
+
+#ezmm-columns-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#ezmm-columns-list .ezmm-column-item {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#ezmm-columns-list .handle {
+    cursor: move;
+    margin-right: 10px;
+}
+
+#ezmm-columns-list .ezmm-col-title,
+#ezmm-columns-list .ezmm-col-icon {
+    flex: 1;
+    margin-right: 5px;
+}
+
+#ezmm-columns-list .ezmm-remove-column {
+    margin-left: 5px;
+}

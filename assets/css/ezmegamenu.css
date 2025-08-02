@@ -1,0 +1,30 @@
+/* Basic styles for ezMegaMenu */
+.ezmm-menu {
+    position: relative;
+}
+.ezmm-columns {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+}
+.ezmm-menu.open > .ezmm-columns {
+    display: flex;
+}
+.ezmm-column {
+    flex: 1;
+    padding: 10px;
+}
+.ezmm-column img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .ezmm-columns {
+        flex-direction: column;
+    }
+}
