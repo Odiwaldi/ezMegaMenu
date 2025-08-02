@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+vendor/
+
+# Build artifacts
+*.zip
+*.log
+
+dist/
